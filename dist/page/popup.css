@@ -1,0 +1,59 @@
+@import url(/dist/css/variables.css);
+body{
+    margin: 0;
+    border: 0;
+    background: var(--background-clr-primary);
+}
+
+.title{
+    text-align: center;
+    margin: 0.25rem;
+    width: 100%;
+    color: var(--text-clr-primary);
+    font-size: 1.25rem;
+}
+.settings{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: max-content;
+    padding: 0.5rem;
+}
+.setting{
+    position: relative;
+    text-align: left;
+    margin-bottom: 0.5rem;
+    background: var(--background-clr-secondary-1);
+    color: var(--text-clr-primary);
+    border: 0;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.setting:hover{
+    background: var(--background-clr-secondary-2);
+    color: var(--text-clr-secondary-3)
+}
+.text{
+    font-size: 1rem;
+}
+.disc{
+    font-size: 0.7rem;
+    color: var(--text-clr-secondary-1);
+    padding: 0;
+    margin: 0;
+    margin-left: 0.5rem;
+    margin-top: 0.25rem;
+}
+.status{
+    position: absolute;
+    margin: 0.5rem;
+    top: 0;
+    right: 0;
+}
+.active{
+    color: lightgreen;
+}
+.inactive{
+    color: var(--background-clr-secondary-7)
+}

@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Nameless",
+  "description": "(NLE) Nameless Extension by Word",
+  "version": "1.0",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "dist/page/popup.html",
+    "default_icon": "dist/img/icon.png"
+  },
+  "icons": {
+    "16": "dist/img/icon.png",
+    "32": "dist/img/icon.png",
+    "48": "dist/img/icon.png",
+    "128": "dist/img/icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://discord.com/invite/dr2B5yZTqf","https://kirka.io/*"],
+      "js": ["src/main.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
