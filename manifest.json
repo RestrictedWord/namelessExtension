@@ -5,7 +5,6 @@
   "version": "1.0",
   "permissions": ["activeTab"],
   "action": {
-    "default_popup": "dist/page/popup.html",
     "default_icon": "dist/img/icon.png"
   },
   "icons": {
