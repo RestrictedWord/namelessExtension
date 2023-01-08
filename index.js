@@ -47,6 +47,7 @@ window.addEventListener("DOMContentLoaded", () => {
       style.setAttribute("type", "text/css");
       document.head.appendChild(style);
     });
+  
   // Create DOM elements
   const nav = document.createElement("div");
   nav.className = "nav";
