@@ -16,7 +16,7 @@
   "content_scripts": [
     {
       "matches": ["https://discord.com/invite/dr2B5yZTqf","https://kirka.io/*"],
-      "js": ["index.js"],
+      "js": ["chat.js"],
       "run_at": "document_start"
     }
   ]
